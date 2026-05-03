@@ -184,7 +184,7 @@ jobs:
     name: Deploy to Staging
     needs: docker-build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: false
     environment: staging
 
     steps:
