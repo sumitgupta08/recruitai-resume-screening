@@ -6,7 +6,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libpq5 curl libpq-dev gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# Sirf core packages — ML libraries hata diye
 COPY requirements.txt .
 RUN pip install --no-cache-dir \
     fastapi==0.111.0 \
@@ -15,6 +14,7 @@ RUN pip install --no-cache-dir \
     asyncpg==0.29.0 \
     alembic==1.13.2 \
     psycopg2-binary==2.9.9 \
+    pgvector==0.3.1 \
     pydantic==2.8.0 \
     pydantic-settings==2.3.4 \
     python-jose[cryptography]==3.3.0 \
@@ -34,7 +34,6 @@ RUN pip install --no-cache-dir \
     spacy==3.7.5 \
     datasketch==1.6.5
 
-# Chota spaCy model
 RUN python -m spacy download en_core_web_sm
 
 COPY . .
