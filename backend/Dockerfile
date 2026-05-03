@@ -1,50 +1,44 @@
-# ── Stage 1: Build dependencies ────────────────────────────────
-FROM python:3.11-slim AS builder
-
-WORKDIR /build
-
-# System deps needed to compile some Python packages
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    libpq-dev \
-    curl \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY requirements.txt .
-RUN pip install --user --no-cache-dir -r requirements.txt
-
-# ── Stage 2: Runtime ────────────────────────────────────────────
-FROM python:3.11-slim AS runtime
+FROM python:3.11-slim
 
 WORKDIR /app
 
-# Runtime system deps only
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    libpq5 \
-    curl \
+    libpq5 curl libpq-dev gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy installed packages from builder
-COPY --from=builder /root/.local /root/.local
-ENV PATH=/root/.local/bin:$PATH
+# Sirf core packages — ML libraries hata diye
+COPY requirements.txt .
+RUN pip install --no-cache-dir \
+    fastapi==0.111.0 \
+    uvicorn[standard]==0.30.1 \
+    sqlalchemy==2.0.31 \
+    asyncpg==0.29.0 \
+    alembic==1.13.2 \
+    psycopg2-binary==2.9.9 \
+    pydantic==2.8.0 \
+    pydantic-settings==2.3.4 \
+    python-jose[cryptography]==3.3.0 \
+    passlib[bcrypt]==1.7.4 \
+    python-multipart==0.0.9 \
+    aiofiles==23.2.1 \
+    redis==5.0.7 \
+    celery==5.4.0 \
+    boto3==1.34.144 \
+    structlog==24.2.0 \
+    prometheus-fastapi-instrumentator==7.0.0 \
+    httpx==0.27.0 \
+    pdfminer.six==20231228 \
+    python-docx==1.1.2 \
+    langdetect==1.0.9 \
+    scikit-learn==1.5.0 \
+    spacy==3.7.5 \
+    datasketch==1.6.5
 
-# Copy application code
+# Chota spaCy model
+RUN python -m spacy download en_core_web_sm
+
 COPY . .
-
-# Download spaCy model (cached in Docker layer)
-RUN python -m spacy download en_core_web_lg
-
-# Non-root user for security
-RUN useradd -m -u 1001 recruitai && chown -R recruitai:recruitai /app
-USER recruitai
-
-# HuggingFace model cache — mount as volume to persist between builds
-ENV HF_HOME=/root/.cache/huggingface
-ENV TRANSFORMERS_CACHE=/root/.cache/huggingface/transformers
 
 EXPOSE 8000
 
-HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD curl -f http://localhost:8000/health || exit 1
-
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
