@@ -1,0 +1,45 @@
+Arjun Kapoor
+arjun.kapoor@email.com | +1 200-724-9338 | Sydney, Australia
+LinkedIn: linkedin.com/in/arjun-kapoor
+
+SUMMARY
+Experienced software professional with 12+ years of industry experience.
+Passionate about building scalable systems and delivering high-quality solutions.
+
+EXPERIENCE
+
+Senior Software Engineer — AIVentures
+May 2025 – Present
+• Led development of microservices architecture serving 1M+ requests/day
+• Reduced deployment time by 60% through CI/CD pipeline optimisation
+• Mentored team of 4 junior engineers
+• Technologies: Redis, AWS, CI/CD, FastAPI, Kubernetes
+
+Software Engineer — StartupXYZ
+May 2014 – May 2017
+• Developed and maintained backend APIs for core product features
+• Improved database query performance by 40% through indexing and query optimisation
+• Collaborated with cross-functional teams on product requirements
+• Technologies: FastAPI, Redis, Kubernetes, CI/CD
+
+EDUCATION
+
+B.Tech. Information Technology
+University of Cambridge — 2013
+GPA: 3.28/4.0
+
+SKILLS
+REST API, Kubernetes, Redis, AWS, FastAPI, CI/CD, PostgreSQL, Flask
+
+PROJECTS
+
+Open Source Contributions
+• Contributed to spaCy with bug fixes and documentation
+• Built ML pipeline toolkit (500+ GitHub stars)
+
+Personal Project — Real-time Analytics Dashboard
+• Achieved 99.9% uptime
+• Technologies: Kubernetes, REST API, FastAPI
+
+CERTIFICATIONS
+• TensorFlow Developer Certificate

@@ -1,0 +1,45 @@
+Yuki Tanaka
+yuki.tanaka@email.com | +1 923-995-1150 | London, UK
+LinkedIn: linkedin.com/in/yuki-tanaka
+
+SUMMARY
+Experienced software professional with 6+ years of industry experience.
+Passionate about building scalable systems and delivering high-quality solutions.
+
+EXPERIENCE
+
+Senior Software Engineer — GlobalSoft
+May 2025 – Present
+• Led development of microservices architecture serving 1M+ requests/day
+• Reduced deployment time by 60% through CI/CD pipeline optimisation
+• Mentored team of 4 junior engineers
+• Technologies: PyTorch, scikit-learn, SQL, Pandas, OpenCV
+
+Software Engineer — AIVentures
+May 2019 – May 2023
+• Developed and maintained backend APIs for core product features
+• Improved database query performance by 40% through indexing and query optimisation
+• Collaborated with cross-functional teams on product requirements
+• Technologies: scikit-learn, Pandas, OpenCV, PyTorch
+
+EDUCATION
+
+B.Sc. Mathematics
+ETH Zurich — 2019
+GPA: 3.72/4.0
+
+SKILLS
+PyTorch, scikit-learn, Apache Spark, SQL, Pandas, OpenCV
+
+PROJECTS
+
+Open Source Contributions
+• Contributed to spaCy with bug fixes and documentation
+• Built REST API framework (500+ GitHub stars)
+
+Personal Project — Distributed Cache System
+• Reduced latency by 50%
+• Technologies: Pandas, Apache Spark, SQL
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect

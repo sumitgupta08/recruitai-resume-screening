@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Senior Backend Engineer",
+    "company": "TechCorp",
+    "description": "We are looking for a Senior Backend Engineer to join our platform team.\nYou will design and build scalable APIs, work closely with the data team, and help architect\nour next-generation microservices infrastructure. You will own critical backend systems\nthat process millions of requests daily. We value clean code, strong testing culture,\nand collaborative problem solving.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "Redis",
+      "AWS"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Go",
+      "Apache Kafka"
+    ],
+    "required_experience_years": 5,
+    "required_education": "Bachelor's",
+    "location": "Remote"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "DataAI Inc",
+    "description": "Join our ML platform team to build production ML systems at scale.\nYou will work on model training pipelines, feature stores, model serving infrastructure,\nand MLOps tooling. We use transformer models, fine-tuning, and vector databases extensively.\nThe ideal candidate has strong Python skills and experience taking models from research to production.",
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn",
+      "Docker",
+      "SQL",
+      "Apache Spark"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "Hugging Face",
+      "Airflow",
+      "MLflow"
+    ],
+    "required_experience_years": 3,
+    "required_education": "Master's",
+    "location": "San Francisco, CA"
+  },
+  {
+    "title": "Full-Stack Developer",
+    "company": "Startify",
+    "description": "We need a versatile Full-Stack Developer who can work across our entire tech stack.\nYou will build React frontends, Node.js APIs, and work with our PostgreSQL database.\nWe are a fast-moving startup so you need to be comfortable with ambiguity and able to\nship features quickly without sacrificing quality.",
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "preferred_skills": [
+      "GraphQL",
+      "Redis",
+      "AWS",
+      "Next.js"
+    ],
+    "required_experience_years": 2,
+    "required_education": "Bachelor's",
+    "location": "New York, NY"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "AnalyticsPro",
+    "description": "Build and maintain our data infrastructure serving analytics for 50M+ users.\nYou will design ETL pipelines, maintain our Snowflake data warehouse, orchestrate workflows\nwith Airflow, and work closely with data scientists and analysts. Strong SQL and Python\nskills are essential.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Apache Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake"
+    ],
+    "preferred_skills": [
+      "Kafka",
+      "BigQuery",
+      "Terraform",
+      "Kubernetes"
+    ],
+    "required_experience_years": 3,
+    "required_education": "Bachelor's",
+    "location": "London, UK"
+  }
+]

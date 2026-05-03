@@ -1,0 +1,45 @@
+Chen Wei
+chen.wei@email.com | +1 770-560-6297 | New York, NY
+LinkedIn: linkedin.com/in/chen-wei
+
+SUMMARY
+Experienced software professional with 4+ years of industry experience.
+Passionate about building scalable systems and delivering high-quality solutions.
+
+EXPERIENCE
+
+Senior Software Engineer — InnovateLabs
+May 2025 – Present
+• Led development of microservices architecture serving 1M+ requests/day
+• Reduced deployment time by 60% through CI/CD pipeline optimisation
+• Mentored team of 4 junior engineers
+• Technologies: Vue.js, TypeScript, Node.js, GraphQL, JavaScript
+
+Software Engineer — DataSystems Inc
+May 2023 – May 2025
+• Developed and maintained backend APIs for core product features
+• Improved database query performance by 40% through indexing and query optimisation
+• Collaborated with cross-functional teams on product requirements
+• Technologies: JavaScript, Next.js, TypeScript, Node.js
+
+EDUCATION
+
+M.Sc. Computer Science
+TU Munich — 2020
+GPA: 3.87/4.0
+
+SKILLS
+JavaScript, TypeScript, Vue.js, Docker, GraphQL, Next.js, Node.js
+
+PROJECTS
+
+Open Source Contributions
+• Contributed to spaCy with bug fixes and documentation
+• Built data visualisation library (500+ GitHub stars)
+
+Personal Project — NLP Text Classifier
+• Achieved 99.9% uptime
+• Technologies: JavaScript, Docker, TypeScript
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect

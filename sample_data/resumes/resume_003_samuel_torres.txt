@@ -1,0 +1,45 @@
+Samuel Torres
+samuel.torres@email.com | +1 818-292-6860 | Remote
+LinkedIn: linkedin.com/in/samuel-torres
+
+SUMMARY
+Experienced software professional with 3+ years of industry experience.
+Passionate about building scalable systems and delivering high-quality solutions.
+
+EXPERIENCE
+
+Senior Software Engineer — CloudNative Ltd
+May 2023 – Present
+• Led development of microservices architecture serving 1M+ requests/day
+• Reduced deployment time by 60% through CI/CD pipeline optimisation
+• Mentored team of 4 junior engineers
+• Technologies: PyTorch, Pandas, OpenCV, Apache Spark, Python
+
+Software Engineer — StartupXYZ
+May 2025 – May 2026
+• Developed and maintained backend APIs for core product features
+• Improved database query performance by 40% through indexing and query optimisation
+• Collaborated with cross-functional teams on product requirements
+• Technologies: Python, PyTorch, Pandas, NumPy
+
+EDUCATION
+
+Ph.D. Machine Learning
+University of Toronto — 2021
+GPA: 3.63/4.0
+
+SKILLS
+NumPy, PyTorch, scikit-learn, OpenCV, Hugging Face, Apache Spark, Python, spaCy, Pandas, TensorFlow
+
+PROJECTS
+
+Open Source Contributions
+• Contributed to scikit-learn with bug fixes and documentation
+• Built REST API framework (500+ GitHub stars)
+
+Personal Project — NLP Text Classifier
+• Achieved 99.9% uptime
+• Technologies: scikit-learn, Pandas, spaCy
+
+CERTIFICATIONS
+• CKA - Certified Kubernetes Administrator

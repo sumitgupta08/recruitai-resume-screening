@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-05-01T20:36:56.887465",
+  "resume_count": 5,
+  "job_count": 4,
+  "resumes": [
+    {
+      "file": "resume_001_isabella_novak.txt",
+      "candidate": "Isabella Novak",
+      "experience_years": 3,
+      "degree": "M.Sc. Data Science"
+    },
+    {
+      "file": "resume_002_yuki_tanaka.txt",
+      "candidate": "Yuki Tanaka",
+      "experience_years": 6,
+      "degree": "B.Sc. Mathematics"
+    },
+    {
+      "file": "resume_003_samuel_torres.txt",
+      "candidate": "Samuel Torres",
+      "experience_years": 3,
+      "degree": "Ph.D. Machine Learning"
+    },
+    {
+      "file": "resume_004_arjun_kapoor.txt",
+      "candidate": "Arjun Kapoor",
+      "experience_years": 12,
+      "degree": "B.Tech. Information Technology"
+    },
+    {
+      "file": "resume_005_chen_wei.txt",
+      "candidate": "Chen Wei",
+      "experience_years": 4,
+      "degree": "M.Sc. Computer Science"
+    }
+  ],
+  "jobs": [
+    "Senior Backend Engineer",
+    "Machine Learning Engineer",
+    "Full-Stack Developer",
+    "Data Engineer"
+  ]
+}

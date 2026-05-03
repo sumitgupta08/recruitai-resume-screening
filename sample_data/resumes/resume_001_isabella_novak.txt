@@ -1,0 +1,45 @@
+Isabella Novak
+isabella.novak@email.com | +1 629-675-5210 | New York, NY
+LinkedIn: linkedin.com/in/isabella-novak
+
+SUMMARY
+Experienced software professional with 3+ years of industry experience.
+Passionate about building scalable systems and delivering high-quality solutions.
+
+EXPERIENCE
+
+Senior Software Engineer — AIVentures
+May 2025 – Present
+• Led development of microservices architecture serving 1M+ requests/day
+• Reduced deployment time by 60% through CI/CD pipeline optimisation
+• Mentored team of 4 junior engineers
+• Technologies: PostgreSQL, dbt, SQL, Tableau, Apache Spark
+
+Software Engineer — TechCorp
+May 2022 – May 2026
+• Developed and maintained backend APIs for core product features
+• Improved database query performance by 40% through indexing and query optimisation
+• Collaborated with cross-functional teams on product requirements
+• Technologies: BigQuery, dbt, Tableau, Snowflake
+
+EDUCATION
+
+M.Sc. Data Science
+University of Cambridge — 2023
+GPA: 3.88/4.0
+
+SKILLS
+Tableau, BigQuery, Kafka, dbt, Python, PostgreSQL, Airflow, SQL, Pandas, Apache Spark, Snowflake
+
+PROJECTS
+
+Open Source Contributions
+• Contributed to spaCy with bug fixes and documentation
+• Built data visualisation library (500+ GitHub stars)
+
+Personal Project — Distributed Cache System
+• Achieved 99.9% uptime
+• Technologies: Tableau, SQL, Snowflake
+
+CERTIFICATIONS
+• CKA - Certified Kubernetes Administrator
