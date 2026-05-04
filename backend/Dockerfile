@@ -33,6 +33,8 @@ RUN pip install --no-cache-dir \
     scikit-learn==1.5.0 \
     spacy==3.7.5 \
     datasketch==1.6.5
+    datasketch==1.6.5 \
+    pymupdf==1.24.7
 
 RUN python -m spacy download en_core_web_sm
 
