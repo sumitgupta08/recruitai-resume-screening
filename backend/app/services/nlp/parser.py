@@ -26,7 +26,11 @@ from datasketch import MinHash
 from langdetect import detect, LangDetectException
 import pdfminer.high_level as pdfminer
 from docx import Document as DocxDocument
-import fitz  # PyMuPDF - fallback
+try:
+    import fitz  # PyMuPDF - fallback
+    PYMUPDF_AVAILABLE = True
+except ImportError:
+    PYMUPDF_AVAILABLE = False
 
 from app.core.config import settings
 from .skill_ontology import SkillOntology
