@@ -17,7 +17,11 @@ from typing import Any
 from datetime import datetime
 
 import spacy
-from sentence_transformers import SentenceTransformer
+try:
+    from sentence_transformers import SentenceTransformer
+    SENTENCE_TRANSFORMERS_AVAILABLE = True
+except ImportError:
+    SENTENCE_TRANSFORMERS_AVAILABLE = False
 from datasketch import MinHash
 from langdetect import detect, LangDetectException
 import pdfminer.high_level as pdfminer
