@@ -14,7 +14,11 @@ import logging
 from typing import Any
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
+try:
+    from sentence_transformers import SentenceTransformer
+    SENTENCE_TRANSFORMERS_AVAILABLE = True
+except ImportError:
+    SENTENCE_TRANSFORMERS_AVAILABLE = False
 from sklearn.metrics.pairwise import cosine_similarity
 
 from app.core.config import settings
