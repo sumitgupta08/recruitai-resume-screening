@@ -87,7 +87,10 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
     if settings.ENV == "production":
-        app.add_middleware(TrustedHostMiddleware, allowed_hosts=["recruitai.example.com"])
+    app.add_middleware(
+        TrustedHostMiddleware,
+        allowed_hosts=["*"]
+    )
 
     # ── Prometheus metrics ────────────────────────────────────
     Instrumentator().instrument(app).expose(app, endpoint="/metrics", include_in_schema=False)
