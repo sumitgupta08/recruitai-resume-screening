@@ -30,7 +30,7 @@ _embedder = None
 _ontology = None
 
 
-def _get_embedder() -> SentenceTransformer:
+def _get_embedder():
     global _embedder
     if _embedder is None:
         _embedder = SentenceTransformer(settings.SENTENCE_TRANSFORMER_MODEL)
